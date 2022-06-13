@@ -9,7 +9,7 @@
         <link rel="shortcut icon" href="#" type="image/x-icon">
         <title>Portafolio - Nahuel González</title>
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <!-- Mis Estilos -->
         <link href="css/StyleSheet.css" rel="stylesheet">
         <link href="css/extraStyle.css" rel="stylesheet">
@@ -19,9 +19,14 @@
         <!-- Iconos -->
         <script src="https://kit.fontawesome.com/855d366406.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+        <!-- Scripts -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/validation.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
-    <body id="page-top" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJlbmFibGVkIiwiRkFDRUJPT0siOiJlbmFibGVkIiwiVFdJVFRFUiI6ImVuYWJsZWQifSwidmVyc2lvbiI6IjEuOC45Iiwic2NvcmUiOjEwODA5MH1d">
-        <div id="app" bis_skin_checked="1"></div>
+    <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Nahuel González</span>
@@ -94,13 +99,10 @@
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
             <div class="w-100" bis_skin_checked="1">
                 <h2 class="mb-5">Educación</h2>
-
-                <div class="mb-3 resume-item d-flex flex-column flex-md-row justify-content-between" bis_skin_checked="1">
+                <div class="mb-3 resume-item d-flex flex-column     flex-md-row justify-content-between" bis_skin_checked="1">
                     <div class="resume-content" bis_skin_checked="1">
                         <h3 class="mb-0">Domingo Silva</h3>
                         <div class="subheading mb-3" bis_skin_checked="1">Desarrollador de Sofware</div>
-                        <div bis_skin_checked="1"><b>Actualmente</b></div>
-                        <p>Tanda tarde</p>
                     </div>
                     <div class="resume-date text-md-right" bis_skin_checked="1">
                         <span class="text-primary">2020 - Cursando</span>
@@ -112,6 +114,16 @@
                         <h3 class="mb-0">Universidad Nacional del Litoral</h3>
                         <div class="subheading mb-3" bis_skin_checked="1">Ingenieria en Informatica</div>
                         <div bis_skin_checked="1"><b></b></div>
+                    </div>
+                    <div class="resume-date text-md-right" bis_skin_checked="1">
+                        <span class="text-primary">2022 - Cursando</span>
+                    </div>
+                </div>
+                <br>
+                <div class="mb-3 resume-item d-flex flex-column     flex-md-row justify-content-between" bis_skin_checked="1">
+                    <div class="resume-content" bis_skin_checked="1">
+                        <h3 class="mb-0">Liceo Municipal</h3>
+                        <div class="subheading mb-3" bis_skin_checked="1">Escuela de Idiomas - Ingles</div>
                     </div>
                     <div class="resume-date text-md-right" bis_skin_checked="1">
                         <span class="text-primary">2022 - Cursando</span>
@@ -151,7 +163,7 @@
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
             <div class="w-100" bis_skin_checked="1">
                 <h2 class="mb-5">Habilidades</h2>
-                <div class="subheading mb-2" bis_skin_checked="1">Lenguajes &amp; herramientas de programación</div>
+                <div class="subheading mb-2" bis_skin_checked="1">Lenguajes & herramientas de programación</div>
                 <ul class="list-inline dev-icons">
                     <li class="list-inline-item" data-toggle="tooltip" title="" data-original-title="HTML 5">
                         <i class="fab fa-html5 html"></i>
@@ -201,202 +213,128 @@
                 <h2 class="mb-1">Proyectos</h2>
                 <p class="mb-5">Te comparto algunos de los proyectos personales que he desarrollado en mi tiempo libre. Podes acceder a algunos proyectos de <i>GitHub</i> dando click <b><a href="https://github.com/NahuelJar" target="_blank">AQUÍ</a></b>.</p>
 
-
                 <div class="row" bis_skin_checked="1">
                     <div class="col-md-4 mb-5" bis_skin_checked="1">
-                        <div class="card" style="width: 18rem;" bis_skin_checked="1">
-                        <img class="card-img-top" src="#" alt="Card image cap">
-                        <div class="card-body" bis_skin_checked="1">
-                            <h5 class="card-title">Web Maquetada</h5>
-                            <p class="card-text">Sistema internacional de empleablidad con 5 tipos de usuarios.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <span class="badge badge-danger">Laravel</span>
-                                <span class="badge badge-success">VueJS</span>
-                                <span class="badge badge-axios">Axios</span>
-                                <span class="badge badge-bootstrap">Bootstrap</span>
-                            </li>
-                        </ul>
-                        <div class="card-body" bis_skin_checked="1">
-                            <a href="https://nahueljar.github.io/maquetacion/" class="btn btn-info" target="_blank">Live Demo</a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-5" bis_skin_checked="1">
-                        <div class="card" style="width: 18rem;" bis_skin_checked="1">
-                        <img class="card-img-top" src="#" alt="Card image cap">
-                        <div class="card-body" bis_skin_checked="1">
-                            <h5 class="card-title">Focus Rentcar</h5>
-                            <p class="card-text">Sistema para gestionar la administracion y renta de vehiculos.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <span class="badge badge-danger">Laravel</span>
-                                <span class="badge badge-success">VueJS</span>
-                                <span class="badge badge-secondary">Jquery</span>
-                                <span class="badge badge-axios">Axios</span>
-                                <span class="badge badge-bootstrap">Bootstrap</span>
-                            </li>
-                        </ul>
-                        <div class="card-body" bis_skin_checked="1">
-                            <a href="http://rentcar.laradex.com/" class="btn btn-info" target="_blank">Live Demo</a>
-                            <a href="#" class="btn btn-dark" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-5" bis_skin_checked="1">
-                        <div class="card" style="width: 18rem;" bis_skin_checked="1">
-                        <img class="card-img-top" src="#" alt="Card image cap">
-                        <div class="card-body" bis_skin_checked="1">
-                            <h5 class="card-title">Vue Cars</h5>
-                            <p class="card-text">Proyecto de Front-end consumiendo API de administracion de vehiculos, marcas, modelos, etc...</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <span class="badge badge-success">VueJS</span>
-                                <span class="badge badge-vuetify">Vuetify</span>
-                                <span class="badge badge-dark">Express</span>
-                                <span class="badge badge-axios">Axios</span>
-                            </li>
-                        </ul>
-                        <div class="card-body" bis_skin_checked="1">
-                            <a href="http://cars-vue.herokuapp.com/" class="btn btn-info" target="_blank">Live Demo</a>
-                            <a href="#" class="btn btn-dark" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" bis_skin_checked="1">
-                    <div class="col-md-4 mb-5" bis_skin_checked="1">
-                        <div class="card" style="width: 18rem;" bis_skin_checked="1">
-                            <img class="card-img-top" src="#" alt="Card image cap">
+                        <div class="card" bis_skin_checked="1">
                             <div class="card-body" bis_skin_checked="1">
-                                <h5 class="card-title">RESTful API de vehiculos</h5>
-                                <p class="card-text">Este es el API que se consume en el proyecto Vue Cars, desarrollado con el micro-framework Lumen.</p>
+                                <h5 class="card-title">web con css</h5>
+                                <p class="card-text">Web maquetada con CSS</p>
                             </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                    <span class="badge badge-lumen">Lumen</span>
-                                    <span class="badge badge-danger">Laravel</span>
+                                    <span class="badge bg-dark">HTML</span>
+                                    <span class="badge bg-dark">CSS</span>
                                 </li>
                             </ul>
                             <div class="card-body" bis_skin_checked="1">
-                                <a href="http://cars.laradex.com/" class="btn btn-info" target="_blank">Live Demo</a>
-                                <a href="#" class="btn btn-dark" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://nahueljar.github.io/maquetacion/" class="btn btn-danger" target="_blank">Ver</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5" bis_skin_checked="1">
-                        <div class="card" style="width: 18rem;" bis_skin_checked="1">
-                        <img class="card-img-top" src="#" alt="Card image cap">
-                        <div class="card-body" bis_skin_checked="1">
-                            <h5 class="card-title">PADRÓN</h5>
-                            <p class="card-text">Sistema de gestión de militantes y empadronamiento para partidos políticos.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <span class="badge badge-danger">Laravel</span>
-                                <span class="badge badge-secondary">Jquery</span>
-                                <span class="badge badge-highcharts">Highcharts</span>
-                                <span class="badge badge-bootstrap">Bootstrap</span>
-                            </li>
-                        </ul>
-                        <div class="card-body" bis_skin_checked="1">
-                            <a href="http://padron.laradex.com/" class="btn btn-info" target="_blank">Live Demo</a>
-                            <a href="#" class="btn btn-dark" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
+                        <div class="card" bis_skin_checked="1">
+                            <div class="card-body" bis_skin_checked="1">
+                                <h5 class="card-title">despensa jireh</h5>
+                                <p class="card-text">Sistema para gestionar ventas del dia con historial.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <span class="badge bg-dark">HTML</span>
+                                    <span class="badge bg-dark">CSS</span>
+                                    <span class="badge bg-dark">JS</span>
+                                    <span class="badge bg-dark">Jquey</span>
+                                </li>
+                            </ul>
+                            <div class="card-body" bis_skin_checked="1">
+                                <a href="https://nahueljar.github.io/despensajireh" class="btn btn-danger target="_blank">Ver</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5" bis_skin_checked="1">
-                        <div class="card" style="width: 18rem;" bis_skin_checked="1">
-                        <img class="card-img-top" src="#" alt="Nuxt Authentication">
-                        <div class="card-body" bis_skin_checked="1">
-                            <h5 class="card-title">Nuxt Authentication</h5>
-                            <p class="card-text">Authenticación de usuarios con <i>Json Web Token</i> (JWT) en NuxtJS.</p><br>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <span class="badge badge-nuxt">NuxtJS</span>
-                                <span class="badge badge-success">VueJS</span>
-                                <span class="badge badge-vuetify">Vuetify</span>
-                                <span class="badge badge-axios">Axios</span>
-                            </li>
-                        </ul>
-                        <div class="card-body" bis_skin_checked="1">
-                            <a href="#" class="btn btn-dark" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
+                        <div class="card" bis_skin_checked="1">
+                            <div class="card-body" bis_skin_checked="1">
+                                <h5 class="card-title"> SISAI</h5>
+                                <p class="card-text">Sistema de gestion inmobiliario</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <span class="badge bg-dark">HTML</span>
+                                    <span class="badge bg-dark">CSS</span>
+                                    <span class="badge bg-dark">JavaScript</span>
+                                    <span class="badge bg-dark">PHP</span>
+                                </li>
+                            </ul>
+                            <div class="card-body" bis_skin_checked="1">
+                                <a href="http://cars-vue.herokuapp.com/" class="btn btn-danger" target="_blank">Ver</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row" bis_skin_checked="1">
                     <div class="col-md-4 mb-5" bis_skin_checked="1">
-                        <div class="card" style="width: 18rem;" bis_skin_checked="1">
-                        <img class="card-img-top" src="#" alt="Card image cap">
-                        <div class="card-body" bis_skin_checked="1">
-                            <h5 class="card-title">Student Web Service</h5>
-                            <p class="card-text">RESTful API para administrar datos de estudiantes, desarrollado en ASP.NET Core Web API.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <span class="badge badge-dark">C#</span>
-                                <span class="badge badge-asp">ASP.NET Core</span>
-                                <span class="badge badge-entity">Entity Framework</span>
-                                <span class="badge badge-swagger">Swagger</span>
-                            </li>
-                        </ul>
-                        <div class="card-body" bis_skin_checked="1">
-                            <a href="#" class="btn btn-dark" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
+                        <div class="card" bis_skin_checked="1">
+                            <div class="card-body" bis_skin_checked="1">
+                                <h5 class="card-title">web con css</h5>
+                                <p class="card-text">Web maquetada con CSS</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <span class="badge bg-dark">HTML</span>
+                                    <span class="badge bg-dark">CSS</span>
+                                </li>
+                            </ul>
+                            <div class="card-body" bis_skin_checked="1">
+                                <a href="https://nahueljar.github.io/maquetacion/" class="btn btn-danger" target="_blank">Ver</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5" bis_skin_checked="1">
-                        <div class="card" style="width: 18rem;" bis_skin_checked="1">
-                        <img class="card-img-top" src="#" alt="Card image cap">
-                        <div class="card-body" bis_skin_checked="1">
-                            <h5 class="card-title">Windows Form Application</h5>
-                            <p class="card-text">El mismo sistema <i>FOCUS Rentcar</i> pero desarrollado en C# Windows Form.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <span class="badge badge-dark">C#</span>
-                                <span class="badge badge-windows">Windows Form</span>
-                                <span class="badge badge-entity">Entity Framework</span>
-                            </li>
-                        </ul>
-                        <div class="card-body" bis_skin_checked="1">
-                            <a href="#" class="btn btn-dark" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
+                        <div class="card" bis_skin_checked="1">
+                            <div class="card-body" bis_skin_checked="1">
+                                <h5 class="card-title">despensa jireh</h5>
+                                <p class="card-text">Sistema para gestionar ventas del dia con historial.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <span class="badge bg-dark">HTML</span>
+                                    <span class="badge bg-dark">CSS</span>
+                                    <span class="badge bg-dark">JS</span>
+                                    <span class="badge bg-dark">Jquey</span>
+                                </li>
+                            </ul>
+                            <div class="card-body" bis_skin_checked="1">
+                                <a href="https://nahueljar.github.io/despensajireh" class="btn btn-danger target="_blank">Ver</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5" bis_skin_checked="1">
-                        <div class="card" style="width: 18rem;" bis_skin_checked="1">
-                        <img class="card-img-top" src="#" alt="Card image cap">
-                        <div class="card-body" bis_skin_checked="1">
-                            <h5 class="card-title">Movie Catalog</h5>
-                            <p class="card-text">Aplicación móvil para visualizar las últimas películas en carteleras, las más populares y su información, también se puede buscar cualquier película en el buscador de la app.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <span class="badge badge-info">Dart</span>
-                                <span class="badge badge-primary">Flutter</span>
-                            </li>
-                        </ul>
-                        <div class="card-body" bis_skin_checked="1">
-                            <a href="#" class="btn btn-dark" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
+                        <div class="card" bis_skin_checked="1">
+                            <div class="card-body" bis_skin_checked="1">
+                                <h5 class="card-title"> SISAI</h5>
+                                <p class="card-text">Sistema de gestion inmobiliario</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <span class="badge bg-dark">HTML</span>
+                                    <span class="badge bg-dark">CSS</span>
+                                    <span class="badge bg-dark">JavaScript</span>
+                                    <span class="badge bg-dark">PHP</span>
+                                </li>
+                            </ul>
+                            <div class="card-body" bis_skin_checked="1">
+                                <a href="http://cars-vue.herokuapp.com/" class="btn btn-danger" target="_blank">Ver</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <hr class="m-0">
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
             <div class="w-100" bis_skin_checked="1">
                 <h2 class="mb-5">Intereses</h2>
-                <p>Soy apasionado a la programación, soy de los que piensa que la programación no tiene límites; todo lo que te imagines lo podes crear. Me gusta adaptarme a un sentido práctico y utilizar los mejores métodos para el desarrollo de un proyecto.</p>
-                <p class="mb-3">Me gusta explorar nuevos entornos, conceptos y lenguajes de programación porque es desafiante y divertido. Algunos de mis pasatiempos son jugar video juegos, ver películas y viajar.</p>
+                <p>Soy apasionado por la programación, pienso que la programación no tiene límites. Puedo adaptarme a un sentido práctico y utilizar los mejores métodos para el desarrollo de un proyecto.</p>
+                <p class="mb-3">Me gusta explorar nuevos entornos, conceptos y lenguajes de programación porque es desafiante. Algunos de mis pasatiempos son jugar videojuegos, ver películas, tocar el piano y hacer deportes.</p>
                 <p class="mb-3"><i>"Aprender a programar es aprender a pensar. Programar permite ejercitar otras capacidades que sirven para todos los ámbitos de la vida, como mejorar el razonamiento lógico formal y potenciar la habilidad para la resolución de problemas".</i></p>
             </div>
         </section>
@@ -406,7 +344,7 @@
                 <h2 class="mb-5">Contacto</h2>
                 <p>Actualmente estoy disponible para nuevas tareas, siéntase libre de enviar un E-mail.
                     Por medio de este formulario podes entrar en contacto conmigo vía correo electrónico.</p>
-                <form method="POST" action="/sendemail" id="contactForm">
+                <form method="POST" action="enviar.php" id="contactForm">
                     <div class="form-row" bis_skin_checked="1">
                         <div class="form-group col-md-6" bis_skin_checked="1">
                             <label for="name">Nombre</label>
@@ -436,19 +374,6 @@
             </div>
         </section>
     </div>
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/validation.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-169916816-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-169916816-1');
-        </script>
+        
     </body>
 </html>

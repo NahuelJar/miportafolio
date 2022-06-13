@@ -1,98 +1,75 @@
 @media screen and (max-width: 600px) {
     .hidden-down { display: none; }
 }
+
 @media screen and (min-width: 600px) {
     .hidden-up { display: none; }
 }
+
 .html {
     color: #f16529 !important;
 }
+
 .bootstrap {
     color: #563d7c !important;
 }
+
 .css {
     color: #264de4 !important;
 }
+
 .js {
     color: #f7e018 !important;
 }
+
 .vue {
     color: #41b883 !important;
 }
+
 .lara {
     color: #ff291a !important;
 }
+
 .csharp {
     color: #39008d !important;
 }
+
 .asp {
     color: #0c2c65 !important;
 }
+
 .gitt {
     color: #f34f29 !important;
 }
+
 .npm {
     color: #cc3838 !important;
 }
+
 .php {
     color: #777cb5 !important;
 }
+
 .wpress {
     color: #21759b !important;
 }
+
 .margin-b {
     margin-bottom: 5px;
 }
+
 .margin-b a{
     color: #958e96;
 }
+
 .btn-style{
     background-color: #387cbd !important; border-color: #346fa7 !important;
 }
+
 a:hover{
     text-decoration: none;
 }
-.badge-lumen {
-    color: #fff;
-    background-color: #f65766;
-}
-.badge-axios {
-    color: #fff;
-    background-color: #0a94d9;
-}
-.badge-ajax {
-    color: #fff;
-    background-color: #0a94d9;
-}
-.badge-bootstrap {
-    color: #fff;
-    background-color: #7952b3;
-}
-.badge-vuetify {
-    color: #fff;
-    background-color: #6096bd;
-}
-.badge-swagger{
-    color: #fff;
-    background-color: #85b70c;
-}
-.badge-highcharts{
-    color: #fff;
-    background-color: #e6781f;
-}
-.badge-nuxt{
-    color: #fff;
-    background-color: #16722c;
-}
-.badge-windows{
-    color: #fff;
-    background-color: #7a4d92;
-}
-.badge-asp{
-    color: #fff;
-    background-color: #37398f;
-}
-.badge-entity{
-    color: #fff;
-    background-color: #5d5c98;
+
+.badge{
+    color: white;
 }
