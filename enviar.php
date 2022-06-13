@@ -2,7 +2,7 @@
 $nombre = $_POST['name'];
 $apellido = $_POST['lastname'];
 $mail = $_POST['email'];
-
+$asunto = $_POST['asunto'];
 
 $header = 'From: ' . $mail . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
@@ -15,7 +15,6 @@ $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
 $para = 'nahuelgonzaleznahuelg2014@gmail.com';
-$asunto = 'Mensaje de mi Portafolio';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
