@@ -373,7 +373,10 @@
                         <div class="invalid-feedback" bis_skin_checked="1">El campo mensaje es requerido.</div>
                     </div>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end" bis_skin_checked="1">
-                        <button type="submit" onclick="validate(this)" class="btn btn-danger btn-block"> Enviar </button>
+                        <button type="submit" name="_captcha" onclick="validate(this)" class="btn btn-danger btn-block"> Enviar </button>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://nahueljar.github.io/miportafolio/">
                     </div>
                 </form>
             </div>
