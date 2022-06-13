@@ -53,15 +53,16 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
     font-size: 8rem;
-    line-height: 7.5rem
+    line-height: 7.5rem;
 }
 
 h2 {
-    font-size: 3.5rem
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 10px #ccc;
 }
 
 h3 {
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 p.lead {
@@ -86,7 +87,8 @@ p.lead {
     text-align: center;
     font-size: 1.5rem;
     line-height: 3.5rem;
-    margin-right: 1rem
+    margin-right: 1rem;
+    box-shadow: 2px 2px 5px #333;
 }
 
 .social-icons a:last-child {
@@ -212,4 +214,5 @@ a:active,a:focus,a:hover {
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding: .5rem 1rem;
+    box-shadow: 0px 0px 10px #333;
 }

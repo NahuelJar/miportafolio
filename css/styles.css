@@ -9,10 +9,11 @@
 	display: none;
 	margin-right: 15px;
 }
+
 .nav-toggler:focus{
 	outline: none;
-	box-shadow: 0 0 15px rgba(255,255,255,0.5);
 }
+
 .nav-toggler span{
     height: 2px;
     width: 20px;
@@ -22,9 +23,11 @@
     position: relative;
     transition: all 0.3s ease;
 }
+
 .nav-toggler.active span{
 	background-color: transparent;
 }
+
 .nav-toggler span::before,
 .nav-toggler span::after{
 	content: '';
@@ -36,22 +39,29 @@
 	background-color: #000;
 	transition: all 0.3s ease;
 }
+
 .nav-toggler span::before{
 	transform: translateY(-6px);
 }
+
 .nav-toggler.active span::before{
 	transform: rotate(45deg);
 }
+
 .nav-toggler span::after{
 	transform: translateY(6px);
 }
+
 .nav-toggler.active span::after{
 	transform: rotate(135deg);
 }
+
 @media(max-width:991px){
+
    .nav-toggler{
    	display: block;
    }
+
    .header .nav{
    	width: 100%;
    	padding:0;
@@ -60,21 +70,34 @@
    	visibility: hidden;
    	transition: all 0.5s ease;
    }
+
    .header .nav.open{
    	visibility: visible;
    }
+
    .header .nav ul{
    	padding:12px 15px 0;
    	margin-top: 12px;
    	border-top:1px solid rgba(255,255,255,0.2);
    }
+
    .header .nav ul li{
    	display: block;
    	margin:0;
    }
+   
 }
 
 .card{
     border: 1px solid rgba(0, 0, 0, .125);
     text-align: center;
+	box-shadow: 2px 2px 10px #ccc;
+}
+
+#title{
+	text-shadow: 2px 2px 10px rgb(146, 144, 144);
+}
+
+.btn{
+	box-shadow: 2px 2px 5px #ccc;
 }
