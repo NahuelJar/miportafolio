@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
     function navToggle() {
         navToggler.classList.toggle("active");
-        const nav = document.querySelector(".nav");
+        // const nav = document.querySelector(".nav");
         // nav.classList.toggle("open");
         // if(nav.classList.contains("open")){
         //     nav.style.maxHeight = nav.scrollHeight + "px";
@@ -14,4 +14,6 @@ $( document ).ready(function() {
         //     nav.removeAttribute("style");
         // }
     }
+
+    
 });
