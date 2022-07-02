@@ -96,9 +96,24 @@ p.lead {
 }
 
 .social-icons a:hover {
-    background-color: var(--bs-red)!important;
     transform: scale(1.1,1.1);
     animation: none;
+}
+
+.social-icons a:nth-child(4):hover {
+    background: linear-gradient(24deg, rgba(255,218,0,1) 0%, rgba(255,0,0,1) 50%, rgba(188,0,255,1) 100%);
+}
+
+.social-icons a:nth-child(3):hover {
+    background: linear-gradient(0deg, rgba(21,0,255,1) 0%, rgba(138,128,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.social-icons a:nth-child(2):hover {
+    background: linear-gradient(0deg, rgba(86,98,246,1) 0%, rgba(138,128,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.social-icons a:nth-child(1):hover {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(2,128,255,1) 30%, rgba(2,114,173,1) 100%);
 }
 
 .social-icons a{
@@ -109,18 +124,12 @@ p.lead {
     0%{
         transform: scale(1,1);
     }50%{
-        transform: scale(1.05,1.05);
-    }100%{
-        transform: scale(1,1);
+        transform: scale(1.1,1.1);
     }
 }
 
 .dev-icons {
     font-size: 3rem;
-}
-
-.dev-icons .list-inline-item i:hover {
-    color: #387cbd;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {

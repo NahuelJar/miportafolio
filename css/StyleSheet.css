@@ -43,20 +43,19 @@
 }
 
 .figma{
-    animation: colors 4s linear infinite;
+    animation: colors 10s linear infinite;
+    color: red;
 }
 
 @keyframes colors {
-    0%{
-        color: orange;
-    }25%{
-        color: purple;
-    }50%{
-        color: blue;
-    }75%{
+    25%{
         color: lightgreen;
+    }50%{
+        color: purple;
+    }75%{
+        color: blue;
     }100%{
-        color: red;
+        color: orange;
     }
 }
 
@@ -96,12 +95,12 @@ a:hover{
 	justify-content: center;
 	width: 100%;
 	height: 100%;
-	background-color: #DC3545;
+	background-color: #fff;
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	animation: morphing 10s infinite;
 	overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(255,255,255,0.3);
-    border: 4px solid #eb5564;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.6) inset;
+    
 }
 
 .blob:hover{
@@ -149,6 +148,22 @@ a:hover{
 
 .toleft-700{
     animation: toLeft 700ms linear;
+}
+
+.toleft-800{
+    animation: toLeft 800ms linear;
+}
+
+.toleft-900{
+    animation: toLeft 900ms linear;
+}
+
+.toleft-1000{
+    animation: toLeft 1000ms linear;
+}
+
+.toleft-1100{
+    animation: toLeft 1100ms linear;
 }
 
 @keyframes toRight{
