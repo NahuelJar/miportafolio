@@ -105,3 +105,16 @@ body{
 .btn{
 	box-shadow: 2px 2px 5px #ccc;
 }
+
+.blob .img2{
+	display: none;
+	width: 70%;
+}
+
+.blob:hover .img2{
+	display: block;
+}
+
+.blob:hover .img1{
+	display: none;
+}
