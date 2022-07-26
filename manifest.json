@@ -3,7 +3,7 @@
   "short_name": "#NahuiGon",
   "description": "Hola soy Nahuel, desarrollador de software iniciando en este mundo, siempre he estado abierto a tareas creativas basadas en la lógica. Me apasiona crear softwares excelentes que mejoren la vida de quienes me rodean. Hago todo lo posible para crear aplicaciones que funcionen bien.",
   "background_color": "#2B2B2B",
-  "theme_color": "#F0DB4F",
+  "theme_color": "#dc3545",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
